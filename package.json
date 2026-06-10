@@ -1,0 +1,16 @@
+{
+  "name": "premium-motion-pipeline",
+  "version": "0.1.0",
+  "description": "Codex skill for premium product motion pipelines: brief, metaphor, storyboard, render proofing, debugging, and web integration.",
+  "type": "module",
+  "bin": {
+    "premium-motion-pipeline": "./bin/install.mjs",
+    "install-premium-motion-pipeline": "./bin/install.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "references",
+    "bin"
+  ],
+  "license": "MIT"
+}

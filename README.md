@@ -49,6 +49,12 @@ mkdir -p ~/.codex/skills
 git clone https://github.com/greenpeez/Premium-Motion-Pipeline.git ~/.codex/skills/premium-motion-pipeline
 ```
 
+Or install it directly with `npx` from GitHub:
+
+```bash
+npx github:greenpeez/Premium-Motion-Pipeline
+```
+
 After installation, Codex can trigger the skill when you ask for a full product animation pipeline, premium landing-page motion, storyboard-to-render work, Blender/Figma animation planning, or animation debugging.
 
 ## Usage Example

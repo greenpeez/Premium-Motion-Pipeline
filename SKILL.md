@@ -1,6 +1,6 @@
 ---
 name: premium-motion-pipeline
-description: Use when turning a rough product animation idea into a polished visual animation pipeline: metaphor mapping, object system, Figma/storyboard planning, Blender or rendered asset production, motion proofing, debugging, final export, and website integration. Especially useful for premium landing-page hero animations, scroll-driven product visuals, 3D object loops, transparent PNG/video sequences, and visual effects that require user checkpoints.
+description: "Use when turning a rough product animation idea into a polished visual animation pipeline: metaphor mapping, object system, Figma/storyboard planning, Blender or rendered asset production, motion proofing, debugging, final export, and website integration. Especially useful for premium landing-page hero animations, scroll-driven product visuals, 3D object loops, transparent PNG/video sequences, and visual effects that require user checkpoints."
 ---
 
 # Premium Motion Pipeline

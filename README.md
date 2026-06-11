@@ -42,17 +42,41 @@ The skill is checkpoint-driven. An agent should work autonomously inside a check
 
 ## Installation
 
-Clone this repo into your Codex skills directory:
+Install directly with the Codex skill installer:
+
+```bash
+npx skills add greenpeez/Premium-Motion-Pipeline --all -a codex -g
+```
+
+Or install directly with `npx` from GitHub:
+
+```bash
+npx github:greenpeez/Premium-Motion-Pipeline
+```
+
+By default, the direct installer writes to:
+
+```text
+~/.codex/skills/premium-motion-pipeline
+```
+
+To install into another agent's skills folder, pass a target skills root:
+
+```bash
+npx github:greenpeez/Premium-Motion-Pipeline -- --target ~/.agents/skills
+```
+
+You can also use an environment variable:
+
+```bash
+PREMIUM_MOTION_SKILL_DIR=~/.agents/skills npx github:greenpeez/Premium-Motion-Pipeline
+```
+
+Manual install also works:
 
 ```bash
 mkdir -p ~/.codex/skills
 git clone https://github.com/greenpeez/Premium-Motion-Pipeline.git ~/.codex/skills/premium-motion-pipeline
-```
-
-Or install it directly with `npx` from GitHub:
-
-```bash
-npx github:greenpeez/Premium-Motion-Pipeline
 ```
 
 After installation, Codex can trigger the skill when you ask for a full product animation pipeline, premium landing-page motion, storyboard-to-render work, Blender/Figma animation planning, or animation debugging.
